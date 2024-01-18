@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box</title>
+</head>
+
+<style> 
+    body{
+        background-color: blanchedalmond;
+    }
+    #daGreenBox{
+        position: absolute; 
+        top: 25%; 
+        width: 100%; 
+        height: 50%; 
+        background-color: seagreen;
+    }
+    
+    h1{
+        cursor: cell;
+        position: relative;
+        text-align: center;
+        top: 40%;
+    }
+</style>
+
+<body>
+    <div id="daGreenBox", onclick="daSecondAlert()">
+            <h1 onclick="daAlert()">Click here!</h1>
+    </div>
+</body>
+
+<script>
+    function daAlert() {
+        alert("Hello there");
+    }
+
+    function daSecondAlert() {
+        console.log("the div was clicked");
+    }
+</script>
+
+
+</html>
